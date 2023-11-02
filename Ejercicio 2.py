@@ -108,7 +108,7 @@ def put_numbers_together(number1, number2):
     return (number1 * 10**digits(number2)) + number2
 
 # Ejemplos de uso de las funciones
-if __name__ == "__main__":
+def main():
     # Pruebas de las funciones
     num = 12321
     print("is_palindromic(12321):", is_palindromic(num))
@@ -154,3 +154,6 @@ if __name__ == "__main__":
     num1 = 123
     num2 = 45
     print("put_numbers_together(123, 45):", put_numbers_together(num1, num2))
+
+# Inicio del programa
+main()
