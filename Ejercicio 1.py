@@ -11,8 +11,8 @@ Crea una función para gestionar menús: recibe una lista de opciones, las muest
 pide una opción (por su número) y devuelve la opción escogida. Modifica el último programa para que use esta función. 
 """
 # Función que muestra el menú y devuelve la opción elegida
-def menu(opcionmenu):
-    for x in opcionmenu:
+def menu(optionmenu):
+    for x in optionmenu:
         print(x)
     option = int(input("Introduce una opción: "))
     return option
@@ -58,7 +58,7 @@ def main():
             dividir(a, b)
         else:
             print("Opción incorrecta")
-        option = menu()
+        option = menu(optionmenu)
     print("Fin del programa")
 
 # Inicio del programa
